@@ -34,14 +34,14 @@ a {
   color: #19181a;
 }
 
-.flex {
+.row {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
 }
 
-.child {
+.column {
   background: white;
   border: 1px;
   height: 400px;
