@@ -1,0 +1,49 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%; /* Tipografía base: 10px */
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+.secondary-font {
+  font-family: "Roboto", "Palatino Linotype", Book Antiqua, Palatino, serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.9rem;
+  line-height: 1.1;
+}
+
+a {
+  color: #19181a;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.child {
+  background: white;
+  border: 1px;
+  height: 400px;
+  width: 500px;
+}
