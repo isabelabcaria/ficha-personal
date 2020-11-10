@@ -32,29 +32,6 @@ h2 {
   font-weight: lighter;
 }
 
-.row {
-  height: 540px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.row2 {
-  height: 400px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.column {
-  height: 540px;
-  width: 500px;
-}
-
-.column2 {
-  height: 150px;
-  width: 250px;
-}
-
 .cabecera {
   text-align: center;
 }
@@ -77,4 +54,29 @@ hr {
   border: 0;
   border-top: 1.9px solid #f8a244;
   width: 400px;
+}
+
+@media (min-width: 960px) {
+  .row {
+    height: 540px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .row2 {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; /* Nao funciona? */
+  }
+
+  .column {
+    height: 540px;
+    width: 500px;
+  }
+
+  .column2 {
+    height: 150px;
+    width: 250px;
+  }
 }
