@@ -10,12 +10,12 @@ html {
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
-  line-height: 1.3;
+  line-height: 1.2;
+  color: #19181a;
 }
 
 h1,
 h2,
-h3,
 .secondary-font {
   font-family: "Roboto", "Palatino Linotype", Book Antiqua, Palatino, serif;
 }
@@ -23,15 +23,13 @@ h3,
 h1 {
   font-size: 3rem;
   line-height: 1.1;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 1.9rem;
   line-height: 1.1;
-}
-
-a {
-  color: #19181a;
+  font-weight: lighter;
 }
 
 .row {
@@ -44,6 +42,7 @@ a {
   height: 400px;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .column {
@@ -62,8 +61,20 @@ a {
 
 .icon {
   float: left;
+  background: #f8a244;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 50%;
 }
 
 .titulo {
-  font-weight: 700;
+  font-weight: bolder;
+}
+
+hr {
+  border: 0;
+  border-top: 1.9px solid #f8a244;
+  width: 400px;
 }
