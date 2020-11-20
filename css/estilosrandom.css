@@ -5,22 +5,21 @@
   height: 80px;
   width: 88px;
   border-radius: 50%;
-  
+
   position: absolute;
-  top 0
+  top: 10;
   left: 0;
   z-index: -1;
-
 }
 
 .icon {
-    position: relative;
+  position: relative;
 }
 
 .green:before {
-    background: green;
+  background: green;
 }
 
 .green:before {
-    background:pink;
+  background: pink;
 }

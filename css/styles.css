@@ -30,11 +30,11 @@ h1 {
 }
 
 .icon {
-  float: left;
+  float: right;
   background: #f8a244;
   text-align: center;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 8px;
   border-radius: 50%;
 }
@@ -71,5 +71,6 @@ hr {
   .column2 {
     height: 150px;
     width: 250px;
+    padding: 8px;
   }
 }
