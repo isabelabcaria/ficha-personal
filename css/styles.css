@@ -15,7 +15,6 @@ body {
 }
 
 h1,
-h2,
 .secondary-font {
   font-family: "Roboto", "Palatino Linotype", Book Antiqua, Palatino, serif;
 }
@@ -23,13 +22,7 @@ h2,
 h1 {
   font-size: 3rem;
   line-height: 1.1;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 1.9rem;
-  line-height: 1.1;
-  font-weight: lighter;
+  font-weight: 700;
 }
 
 .cabecera {
@@ -47,7 +40,7 @@ h2 {
 }
 
 .titulo {
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 hr {
