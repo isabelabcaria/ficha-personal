@@ -1,0 +1,26 @@
+.image-container:before {
+  content: "";
+  background: aqua;
+  display: block;
+  height: 80px;
+  width: 88px;
+  border-radius: 50%;
+  
+  position: absolute;
+  top 0
+  left: 0;
+  z-index: -1;
+
+}
+
+.icon {
+    position: relative;
+}
+
+.green:before {
+    background: green;
+}
+
+.green:before {
+    background:pink;
+}
